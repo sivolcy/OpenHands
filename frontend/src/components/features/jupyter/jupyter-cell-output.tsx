@@ -13,12 +13,12 @@ interface JupyterCellOutputProps {
 export function JupyterCellOutput({ lines }: JupyterCellOutputProps) {
   const { t } = useTranslation();
   return (
-    <div className="rounded-lg bg-gray-800 dark:bg-gray-900 p-2 text-xs">
+    <div className="rounded-lg bg-gray-100 light:bg-gray-50 p-2 text-xs">
       <div className="mb-1 text-gray-400">
         {t(I18nKey.JUPYTER$OUTPUT_LABEL)}
       </div>
       <pre
-        className="scrollbar-custom scrollbar-thumb-gray-500 hover:scrollbar-thumb-gray-400 dark:scrollbar-thumb-white/10 dark:hover:scrollbar-thumb-white/20 overflow-auto px-5 max-h-[60vh] bg-gray-800"
+        className="scrollbar-custom scrollbar-thumb-gray-400 hover:scrollbar-thumb-gray-500 light:scrollbar-thumb-gray-300 light:hover:scrollbar-thumb-gray-400 overflow-auto px-5 max-h-[60vh] bg-gray-100"
         style={{ padding: 0, marginBottom: 0, fontSize: "0.75rem" }}
       >
         {/* display the lines as plaintext or image */}

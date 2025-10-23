@@ -12,21 +12,21 @@ export const ASSET_FILE_TYPES = [
 
 export const JSON_VIEW_THEME = {
   base00: "transparent", // background
-  base01: "#2d2d2d", // lighter background
-  base02: "#4e4e4e", // selection background
-  base03: "#6c6c6c", // comments, invisibles
-  base04: "#969896", // dark foreground
-  base05: "#d9d9d9", // default foreground
-  base06: "#e8e8e8", // light foreground
+  base01: "#f8f9fa", // lighter background
+  base02: "#e9ecef", // selection background
+  base03: "#6c757d", // comments, invisibles
+  base04: "#495057", // dark foreground
+  base05: "#212529", // default foreground
+  base06: "#343a40", // light foreground
   base07: "#ffffff", // light background
-  base08: "#ff5370", // variables, red
-  base09: "#f78c6c", // integers, orange
-  base0A: "#ffcb6b", // booleans, yellow
-  base0B: "#c3e88d", // strings, green
-  base0C: "#89ddff", // support, cyan
-  base0D: "#82aaff", // functions, blue
-  base0E: "#c792ea", // keywords, purple
-  base0F: "#ff5370", // deprecated, red
+  base08: "#dc3545", // variables, red
+  base09: "#fd7e14", // integers, orange
+  base0A: "#ffc107", // booleans, yellow
+  base0B: "#28a745", // strings, green
+  base0C: "#17a2b8", // support, cyan
+  base0D: "#007bff", // functions, blue
+  base0E: "#6f42c1", // keywords, purple
+  base0F: "#dc3545", // deprecated, red
 };
 
 export const DOCUMENTATION_URL = {

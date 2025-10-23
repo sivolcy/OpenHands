@@ -183,7 +183,7 @@ export function LikertScale({
     if (isSubmitted) {
       return selectedRating && selectedRating >= rating
         ? "text-yellow-400 cursor-not-allowed"
-        : "text-gray-300 opacity-50 cursor-not-allowed";
+        : "text-gray-500 opacity-50 cursor-not-allowed";
     }
 
     return selectedRating && selectedRating >= rating

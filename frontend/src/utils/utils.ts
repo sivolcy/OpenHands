@@ -545,7 +545,7 @@ export const getStatusClassName = (status: string) => {
   if (status === "in_progress") {
     return "bg-yellow-800 text-yellow-200";
   }
-  return "bg-gray-700 text-gray-300";
+  return "bg-gray-200 text-gray-700";
 };
 
 /**

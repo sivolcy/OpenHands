@@ -13,15 +13,15 @@
 @theme {
   --color-primary: #c9b974;
   --color-logo: #cfb755;
-  --color-base: #0d0f11;
-  --color-base-secondary: #24272e;
+  --color-base: #ffffff;
+  --color-base-secondary: #f8f9fa;
   --color-danger: #e76a5e;
   --color-success: #a5e75e;
-  --color-basic: #9099ac;
-  --color-tertiary: #454545;
-  --color-tertiary-light: #b7bdc2;
-  --color-content: #ecedee;
-  --color-content-2: #f9fbfe;
+  --color-basic: #6c757d;
+  --color-tertiary: #e9ecef;
+  --color-tertiary-light: #495057;
+  --color-content: #212529;
+  --color-content-2: #343a40;
 }
 
 .button-base {
